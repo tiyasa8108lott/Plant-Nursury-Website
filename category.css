@@ -1,0 +1,58 @@
+/* General styles for the category page */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Header styles */
+h2 {
+    color: #4caf50;
+    font-weight: bold;
+}
+
+/* Card styles */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.btn {
+    width: 100%;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* View Products Button */
+.btn-primary {
+    background-color: #4caf50;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #388e3c;
+}
+
+/* Footer styles */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 10px 0;
+}

@@ -1,0 +1,125 @@
+/* General page setup */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqRWCHI4uzXnobPNDT_Qz7AHXncz7-N61ZWQ&s') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff; /* Default text color */
+}
+
+/* Container for the registration form */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Glassmorphic form */
+.register-form {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.register-form h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #1a4a1b; /* Updated to green theme */
+    font-weight: bold;
+}
+
+.register-form .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.register-form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.register-form .form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.register-form .form-group input:focus {
+    border-color:  #1a4a1b; /* Updated to green theme */
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* Submit Button */
+.btn-submit {
+    background-color: #1a4a1b; /* Updated to green */
+    color: #ffffff;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #388e3c; /* Darker green */
+    transform: scale(1.05);
+}
+
+/* Login link */
+.login-link {
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+.login-link a {
+    color:  #1a4a1b; /* Updated to green theme */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.login-link a:hover {
+    color: #388e3c; /* Darker green */
+}
+
+/* Error message */
+.error {
+    color: #ff4d4d; /* Red for errors */
+    font-size: 1rem;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .register-form {
+        padding: 30px;
+        width: 90%;
+    }
+
+    .btn-submit {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+}

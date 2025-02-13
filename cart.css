@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 800px;
+}
+
+h2 {
+    color: #4caf50;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+table {
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+table th {
+    background-color: #28a745;
+    color: white;
+}
+
+table td {
+    vertical-align: middle;
+}
+
+input[type="number"] {
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-primary:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.mt-3 {
+    margin-top: 15px;
+}
