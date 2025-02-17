@@ -5,17 +5,6 @@ Project Overview:
 -----------------
 This is an online plant nursery website where users can browse various plant categories, view product details, and add items to their cart.
 
-Installation Instructions:
---------------------------
-1. Install a local server environment (XAMPP, WAMP, or MAMP).
-2. Place the project folder inside the "htdocs" directory (for XAMPP).
-3. Import the database:
-   - Open phpMyAdmin.
-   - Create a new database named `plant_shop`.
-   - Import the `plant_shop.sql` file (if available).
-4. Update the database connection:
-   - Open `includes/conn.php`.
-   - Modify the database credentials if needed.
 
 Technologies Used:
 ------------------
